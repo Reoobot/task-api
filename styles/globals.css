@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-sportyfly-background {
+  background: linear-gradient(135deg, #03349cea, #99280f);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.bg-sportyfly-button {
+  background: #ff3000;
+  color: #fff;
+  border: none;
+}
+
+.bg-sportyfly-button:hover {
+  background: #ff6c00;
+}
